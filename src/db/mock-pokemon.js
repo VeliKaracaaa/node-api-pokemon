@@ -5,7 +5,7 @@ const pokemons = [
         hp: 25,
         cp: 5,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
-        types: ["Plante", "Poison"],
+        types: ["Plante", "Poisson"],
         created: new Date()
     },
     {
@@ -32,7 +32,7 @@ const pokemons = [
         hp: 16,
         cp: 2,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/013.png",
-        types: ["Insecte", "Poison"],
+        types: ["Insecte", "Poisson"],
         created: new Date()
     },
     {
@@ -68,7 +68,7 @@ const pokemons = [
         hp: 16,
         cp: 4,
         picture: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png",
-        types: ["Poison"],
+        types: ["Poisson"],
         created: new Date()
     },
     {
