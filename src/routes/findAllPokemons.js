@@ -8,7 +8,7 @@ module.exports = (app) => {
             return Pokemon.findAll({
                 where : {
                     name: { // est la propriété du model
-                        [Op.eq]: name // critère de recherche
+                        [Op.like]: name // critère de recherche
                     }
                 }
             })
